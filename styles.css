@@ -77,15 +77,27 @@ body {
     background: url(/img/background-image.avif) no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 25%;
+    width: 35%;
     float: left;
 }
 
 .right {
     height: 100vh;
-    width: 75%;
+    width: 65%;
     background-color: antiquewhite;
     float: right;
+}
+
+.left-top {
+    height: 10%;
+}
+
+.left-mid {
+    height: 80%;
+}
+
+.left-bot {
+    height: 10%;
 }
 
 .left-banner {
@@ -96,7 +108,6 @@ body {
     align-items: center;
     height: 100px;
     width: 100%;
-    margin-top: 75px;
 }
 
 .odin {
@@ -114,6 +125,20 @@ body {
 .left h4, .left a{
     text-align: center;
     color:lightgray;
-    margin-top: 450px;
     font-size: 12px;
 }
+
+/* Right Form Section */
+
+.right-top {
+    height: 30%;
+}
+
+.right-mid {
+    height: 40%;
+}
+
+.right-bot {
+    height: 30%;
+}
+
