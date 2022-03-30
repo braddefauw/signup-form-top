@@ -107,4 +107,13 @@ body {
 .left-banner h1 {
     color: lightgray;
     margin-right: 16px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.left h4, .left a{
+    text-align: center;
+    color:lightgray;
+    margin-top: 450px;
+    font-size: 12px;
 }
