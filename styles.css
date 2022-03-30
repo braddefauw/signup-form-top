@@ -71,6 +71,7 @@ table {
 body {
     font-family: 'Skranji', cursive;
     font-weight: 400;
+    color: #121212;
 }
 
 .left {
@@ -132,13 +133,30 @@ body {
 
 .right-top {
     height: 30%;
+    background-color: #b99480;
+}
+
+.right-top h3 {
+    padding-top: 48px;
+    font-size: 18px;
 }
 
 .right-mid {
     height: 40%;
+    background: #f9dfd2;
 }
 
 .right-bot {
     height: 30%;
+    background: #b99480;
+}
+
+.right-bot button {
+    background: #121212;
+    color: #f9dfd2;
+}
+
+.right-bot a {
+    color: #121212;
 }
 
