@@ -164,6 +164,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.content label {
+    font-size: 0.75rem;
+}
+
 .content input {
     width: 16rem;
     height: 1.5rem;
@@ -184,11 +188,11 @@ body {
 }
 
 .right-bot input {
-    background: #121212;
+    background: #b99480;
     color: #f9dfd2;
     padding: 1rem 3rem 1rem 3rem;
     border-radius: 1rem;
-    border: none;
+    border: 3px solid black;
     margin-bottom: 2rem;
     display: inline-block;
     font-size: 1rem;
@@ -202,5 +206,9 @@ body {
 .right-bot a {
     color: #f9dfd2;
     text-decoration: none;
+}
+
+.submit:hover {
+    background: #121212;
 }
 
