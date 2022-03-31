@@ -136,19 +136,40 @@ body {
     background-color: #b99480;
 }
 
-.right-top-content {
+.right-top-content, .right-mid-content {
     width: 70%;
     margin-left: 3rem;
 }
 
-.right-top h3 {
+.right-top h3{
     padding-top: 48px;
     font-size: 1.125rem;
+}
+
+.right-mid h3 {
+    font-size: 1.25rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 .right-mid {
     height: 40%;
     background: #f9dfd2;
+}
+
+.row {
+    display: flex;
+}
+
+.content {
+    margin-bottom: 1rem;
+}
+
+.content input {
+    width: 16rem;
+    height: 1.5rem;
+    margin-right: 8rem;
+    background: #f9dfd2;
+    border-radius: 0.5rem;
 }
 
 .right-bot {
