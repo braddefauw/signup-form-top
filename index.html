@@ -57,12 +57,12 @@
                     </div>
                     <div class="row">
                         <div class="content">
-                            <label for="pw">PASSWORD</label><br>
-                            <input type="password" id="pw" name="pw" required><br>
+                            <label for="pw">PASSWORD (8 characters minimum)</label><br>
+                            <input type="password" id="pw" name="pw" minlength="8" required><br>
                         </div>
                         <div class="content">
                             <label for="cpw">CONFIRM PASSWORD</label><br>
-                            <input type="password" id="cpw" name="cpw" required><br>
+                            <input type="password" id="cpw" name="cpw" minlength="8" required><br>
                         </div>
                     </div> 
             </div>
@@ -70,11 +70,12 @@
             </div>
             <div class="right-bot">
                 <div class="right-bot-content">
-                    <input type="submit" value="Create Account" class="submit">
+                    <input type="submit" value="Create Account" id="submit">
                     <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Log In</a></p>
                 </div>
             </form> 
             </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

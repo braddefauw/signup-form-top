@@ -208,7 +208,7 @@ body {
     text-decoration: none;
 }
 
-.submit:hover {
+#submit:hover {
     background: #121212;
 }
 
