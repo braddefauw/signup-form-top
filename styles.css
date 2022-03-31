@@ -136,9 +136,14 @@ body {
     background-color: #b99480;
 }
 
+.right-top-content {
+    width: 70%;
+    margin-left: 3rem;
+}
+
 .right-top h3 {
     padding-top: 48px;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .right-mid {
@@ -151,12 +156,30 @@ body {
     background: #b99480;
 }
 
-.right-bot button {
+.right-bot-content {
+    width: 70%;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+
+.right-bot input {
     background: #121212;
     color: #f9dfd2;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.right-bot p {
+    font-size: 0.825rem;
 }
 
 .right-bot a {
-    color: #121212;
+    color: #f9dfd2;
+    text-decoration: none;
 }
 
