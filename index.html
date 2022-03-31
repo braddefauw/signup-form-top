@@ -48,11 +48,11 @@
                     <div class="row">
                         <div class="content">
                             <label for="email">EMAIL</label><br>
-                            <input type="text" id="email" name="email" required><br> 
+                            <input type="email" id="email" name="email" required><br> 
                         </div>
                         <div class="content">
-                            <label for="phone">PHONE NUMBER</label><br>
-                            <input type="text" id="phone" name="phone" required><br>
+                            <label for="phone">PHONE NUMBER (Format: 123-456-7890)</label><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
                         </div>
                     </div>
                     <div class="row">
