@@ -184,6 +184,10 @@ body {
     border: 1px solid #b99480;
 }
 
+.content input:invalid {
+    border: 1px solid red;
+}
+
 .right-bot {
     height: 30%;
     background: #b99480;
