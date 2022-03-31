@@ -169,12 +169,22 @@ body {
 }
 
 .content input {
+    flex: auto;
+    border: 1px solid #121212;
     width: 16rem;
     height: 1.5rem;
     margin-right: 8rem;
-    background: #f9dfd2;
+    background: transparent;
     border-radius: 0.5rem;
 }
+
+.content input:focus {
+    outline-color: #b99480;
+    outline-style:solid;
+    border: 1px solid #b99480;
+}
+
+
 
 .right-bot {
     height: 30%;
